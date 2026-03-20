@@ -6,21 +6,42 @@
   <title>404 — PsykeTools</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    *{box-sizing:border-box;margin:0;padding:0}
-    body{font-family:'Inter',system-ui,sans-serif;background:#0a0a0f;color:#e4e4ed;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:2rem}
-    h1{font-size:6rem;font-weight:700;background:linear-gradient(135deg,#6366f1,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1}
-    p{color:#8888a0;font-size:1.1rem;margin:1rem 0 2rem}
-    a{display:inline-block;padding:.75rem 1.75rem;background:#6366f1;color:#fff;border-radius:10px;text-decoration:none;font-weight:600;font-size:.925rem;transition:background .2s}
-    a:hover{background:#4f46e5}
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <div>
-    <h1>404</h1>
-    <p>This page doesn't exist yet.</p>
-    <a href="/">Go Home</a>
-  </div>
+  <div class="grain"></div>
+
+  <header>
+    <div class="header-inner">
+      <a href="/" class="logo">
+        <div class="logo-mark">P</div>
+        PsykeTools
+      </a>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="https://github.com/pardeepdhingra" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main style="display:flex;align-items:center;justify-content:center;flex:1;text-align:center;padding:2rem">
+    <div>
+      <h1 style="font-size:6rem;line-height:1">4<span>0</span>4</h1>
+      <p style="color:var(--text-muted);font-size:1.1rem;margin:1rem 0 2rem">This page doesn't exist yet.</p>
+      <a href="/" class="btn btn-primary">Go Home</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="https://github.com/pardeepdhingra" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p>&copy; 2026 PsykeTools. Built by <a href="https://github.com/pardeepdhingra" target="_blank" rel="noopener">Pardeep Dhingra</a>.</p>
+  </footer>
 </body>
 </html>
